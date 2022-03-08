@@ -511,6 +511,36 @@ footer .last {
 
 }
 
+.button {
+
+	background-color: #f78b00;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#cadastro {
+
+	background-color: #f78b00;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
 .card {
 
     background-color: rgba(19, 19, 19, 0.3);
@@ -679,4 +709,18 @@ footer .last {
 }
 .close:hover {
   background: #00d9ff;
+}
+
+div {
+	display: flex;
+}
+
+input {
+	border:  none;
+	border-bottom: 1px solid #590fe4;
+}
+
+img {
+	width: 18px;
+	cursor: pointer;
 }
