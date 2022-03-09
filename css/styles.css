@@ -710,17 +710,3 @@ footer .last {
 .close:hover {
   background: #00d9ff;
 }
-
-div {
-	display: flex;
-}
-
-input {
-	border:  none;
-	border-bottom: 1px solid #590fe4;
-}
-
-img {
-	width: 18px;
-	cursor: pointer;
-}
