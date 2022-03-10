@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 	<title>Cadastro</title>
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<link rel="stylesheet" href="css/styles.css">
 <body>
        <div id="cadastro">
 
@@ -31,9 +31,12 @@
                         <label for="usuario">Email: </label>
                         <input type="text" id="usuario" autocomplete="off">
                         <label for="password">Senha: </label>
+                        <div class="t1">
+                        <img src="assets/eye.svg" alt="">
                         <input type="password" id="senha"><br>
-                        <input type="checkbox" onclick="mostrarOcultarSenha()">Mostrar Senha
-                        <button type="button" onclick="alert('Cadastro feito com sucesso')">Cadastrar</button>
+                        <input type="checkbox" onclick="mostrarOcultarSenha()" class="mostrar-senha">Mostrar Senha <br>
+                        <div class="t2"><button type="button" onclick="alert('Cadastro feito com sucesso')" class="teste">Cadastrar</button></div>
+                    	</div>
                         </form>
 
                     </div>
