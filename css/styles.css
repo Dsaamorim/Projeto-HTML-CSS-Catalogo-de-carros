@@ -212,6 +212,20 @@ section .card-item {
 	justify-content: space-around;
 }
 
+.card-wrapper .card-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* .card-item { 
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	margin: auto;
+	flex-direction: column;
+} */
+
 .card-item img {
 	width: 85%;
 }
@@ -223,7 +237,7 @@ section .card-item {
 .card-item p {
 	width: 90%;
 	font-style: italic;
-	color:  #000000070;
+	color:  #000070;
 }
 
 .card-item button {
@@ -709,4 +723,22 @@ footer .last {
 }
 .close:hover {
   background: #00d9ff;
+}
+
+.teste {
+	display: flex;
+	background-color: var(--orange);
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	padding: 9px;
+	cursor: pointer;
+	margin-top: 13px;
+	width: 100%;
+}
+
+
+.teste:hover {
+	background: var(--gray);
+	color: var(--orange);
 }
